@@ -32,7 +32,9 @@ CREATE TABLE `Buyer` (
   `Username` char(20) NOT NULL,
   `Item id` int(20) NOT NULL,
   `Bid_id` int(20) NOT NULL,
-  `cc number` int(20) NOT NULL
+  `cc number` int(20) NOT NULL,
+  'bu_id' int(20) NOT NULL
+  PRIMARY KEY('Item id')
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
