@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>eAuction Sign up</title>
+</head>
+
+<body>
+<h1>LogIn</h1>
+
+<form action="login.php" method="post">
+  <div class="container">
+    
+    <hr>
+
+	 Email:<br>
+  <input type="text" placeholder="Enter Email" name="email" required>
+<span class="error">* <?php echo $emailerr;?></span><br><br>
+
+  Password:<br>
+  <input type="password" placeholder="Enter Password" name="password" required>
+<span class="error">* <?php echo $passworderr;?></span><br><br>
+
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+	<input type="submit" value="Submit">
+  	<input type="reset">
+    </div>
+  </div>
+<br>
+</form>
+<div class="topnav">
+    <a class="normal" href="signup.html">Don't have an account? Sign up</a>
+</div>
+</body>
+
+</html>
+
+
+
+</html>
