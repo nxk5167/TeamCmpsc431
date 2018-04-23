@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+    	<link rel="stylesheet" type="text/css" href="indexStyle.css">
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    	<!-- jQuery library -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    	<!-- Latest compiled JavaScript -->
+   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   	<link rel="p">
+   	<title>eAuction Homepage</title>
+
+<style>
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			background: #1bc2a2;
+		}
+	
+		ul li {
+			display: block;
+			position: relative;
+			float: left;
+			background: #1bc2a2;
+		}
+
+		li ul { display: none; }
+		ul li a {
+			display: block;
+			padding: 1em;
+			text-decoration: none;
+			white-space: nowrap;
+			color: #fff;
+		}
+		ul li a:hover { background: #2c3e50; }
+
+		li:hover > ul {
+			display: block;
+			position: absolute;
+		}
+		
+		li:hover li { float: none; }
+		li:hover a { background: #1bc2a2; }
+		li:hover li a:hover { background: #2c3e50; }
+		.list li ul li { border-top: 0; }
+
+
+		ul ul ul {
+			left: 100%;
+			top: 0;
+		}
+
+		ul:before,
+		ul:after {
+			content: " "; /* 1 */
+			display: table; /* 2 */
+		}
+	
+		ul:after { clear: both; }
+
+</style>
+</head>
+
+
+<body>
+
+<ul class = "list">
+   <li><a href="#">Categories</a>
+	<ul>
+	<li>
+    		<a href="#">Auto & Tires</a>
+			<ul>
+			<li><a href="#">Oils & Fluids</a>
+				<ul>
+				<li><a href="#">Motor Oil</a></li>
+				<li><a href="#">Collant & Fluids</a></li>
+				<li><a href="#">Antifreeze</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Auto Electronics</a>
+				<ul>
+				<li><a href="#">Car Stereo</a></li>
+				<li><a href="#">Car Speaker</a></li>
+				<li><a href="#">Car DVD</a></li>
+				</ul>
+			</li>
+			</ul>
+	</li>
+	<li>
+   		<a href="#">Photo & Personalized Shop</a>
+			<ul>
+			<li><a href="#">Photo Center</a>
+				<ul>
+				<li><a href="#">Calendars</a></li>
+				<li><a href="#">Invitations</a></li>
+				</ul>
+
+			</li>
+			<li><a href="#">Gift Cards</a>
+				<ul>
+				<li><a href="#">Corporate Gift Card</a></li>
+				<li><a href="#">Speciality Gift Card</a></li>
+				</ul>
+			</li>
+			</ul>		
+
+
+	</li>
+	<li>
+    		<a href="#">Electronics and Office</a>
+			<ul>
+			<li><a href="#">TV & Video</a>
+				<ul>
+				<li><a href="#">DVD</a></li>
+				<li><a href="#">TV Accessories</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Cell Phones</a>
+				<ul>
+				<li><a href="#">Contract Phones</a></li>
+				<li><a href="#">Unlocked Phones</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Computers</a></li>
+			</ul>
+
+
+	</li>
+	<li>
+		<a href="#">Movies, Music & Books</a>
+			<ul>
+			<li><a href="#">Music & TV</a>
+				<ul>
+				<li><a href="#">New Releases</a></li>
+				<li><a href="#">All Music & TV</a></li>
+				</ul>
+
+			</li>
+			<li><a href="#">Books</a>
+				<ul>
+					<li><a href="#">New Releases</a></li>
+					<li><a href="#">Literature & Fiction</a></li>
+					<li><a href="#">Comics & Graphic Novels</a></li>
+					</ul>
+
+
+				</li>
+			</ul>
+
+
+	</li>
+	<li>
+		<a href="#">Home, Furniture & Appliances</a>
+			<ul>
+			<li><a href="#">Brand Stores</a></li>
+			<li><a href="#">Home Decor</a>
+				<ul>
+					<li><a href="#">Furniture</a></li>
+					<li><a href="#">Kitchen & Dining</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Electronics & Appliances</a></li>
+			</ul>
+
+
+	</li>
+	<li>
+		<a href="#">Clothing, Shoes & Jewelry</a>
+			<ul>
+			<li><a href="#">Men's</a></li>
+			<li><a href="#">Women's</a>
+				<ul>
+					<li><a href="#">Jewelry</a></li>
+					<li><a href="#">Maternity</a></li>
+				</ul>
+
+			</li>
+			<li><a href="#">All Shoes</a></li>
+			</ul>
+
+
+	</li>
+	<li>
+		<a href="#">Pharmacy, Health & Beauty</a>
+			<ul>
+			<li><a href="#">Pharmacy</a>
+				<ul>
+					<li><a href="#">Refill Prescriptions</a></li>
+					<li><a href="#">Transfer Prescriptions</a></li>
+				</ul>
+
+
+			</li>
+			<li><a href="#">Oral Care</a></li>
+			<li><a href="#">Bath & Beauty</a>
+				<ul>
+					<li><a href="#">Body Wash</a></li>
+					<li><a href="#">Lotions</a></li>
+				</ul>
+			</li>
+			</ul>
+
+
+	</li>
+	<li>
+		<a href="#">Sports, Fitness & Outdoors</a>
+			<ul>
+			<li><a href="#">Exercise & Fitness</a>
+				<ul>
+					<li><a href="#">Bikes</a></li>
+					<li><a href="#">Treadmills</a></li>
+					</ul>
+
+			</li>
+			<li><a href="#">Recreation</a>
+				<ul>
+					<li><a href="#">Air Soft</a></li>
+					<li><a href="#">Lawn Games</a></li>
+					</ul>
+			</li>
+			</ul>
+
+
+	</li>
+	</ul>
+</li>
+
+<li><form action='search.php' method='post'>
+        <input type="search" name='search' placeholder="Search Item">
+    </form>
+</li>
+
+<li><a href="favorites.html">Favorites</a></li>
+
+
+<li><a href="personal_user.html">Personal Information</a></li>
+
+<li><a href="logout.html">Logout</a></li>
+
+</ul>
+</body>
+</html>
+
+
+

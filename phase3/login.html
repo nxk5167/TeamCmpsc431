@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="indexStyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="p">
+    <title>eAuction LogIn</title>
+</head>
+
+<body>
+<div class="jumbotron" style="margin-bottom: 0px;background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 80%); border: none;height: 1300px">
+    <div class="container text-center" style=" background: transparent">
+    <h2 style="color: white"></h2>
+    </div>
+
+
+
+<h1>LogIn</h1>
+
+<form action="login.php" method="post">
+  <div class="container">
+ 
+
+	 Email:<br>
+  <input type="text" placeholder="Enter Email" name="email">
+<span class="error">* <?php echo $emailerr;?></span><br><br>
+
+  Password:<br>
+  <input type="password" placeholder="Enter Password" name="password">
+<span class="error">* <?php echo $passworderr;?></span><br><br>
+
+
+    
+	<input type="submit" value="Submit">
+
+  </div>
+<br>
+</form>
+<div class="topnav">
+    <a class="normal" href="signup.html">Don't have an account? Sign up</a>
+</div>
+</body>
+
+</html>
