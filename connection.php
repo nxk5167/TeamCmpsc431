@@ -1,18 +1,17 @@
-<html>
-<head>
-</head>
-<body>
 <?php
+$servername = "localhost";
+$username = "root";
+$password = "";
 
-$con = mysql_connect("localhost", "root", "database");
+// Create connection
+$conn = new mysqli($servername, $username, $password);
 
-if(!$conn)
-{
-  die("connection failed:" . mysqli_connect_error());
-}
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+echo "Connected successfully";
 
-mysql_close($con);
+mysqli_select_db($conn,"dCoders");
 
 ?>
-</body>
-</html>
